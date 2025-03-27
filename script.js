@@ -30,12 +30,12 @@ const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 const clearResults = async array => {
     number.value = "";
     results.querySelectorAll(".result-text")[0].style.textDecoration = "line-through";
-    await sleep(350);
+    await sleep(300);
     while (results.querySelectorAll(".result-text").length > 1) {
         results.querySelectorAll(".result-text")[1].style.textDecoration = "line-through";
-        await sleep(350);
+        await sleep(300);
         results.querySelectorAll(".result-text")[0].remove();
-        await sleep(250);
+        await sleep(200);
     }
     results.querySelectorAll(".result-text")[0].remove();
     array.length = 0;
