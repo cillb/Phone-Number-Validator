@@ -11,7 +11,7 @@ A simple frontend JavaScript app to check if a given input is a valid US phone n
 ### 1. Clone the Repo
 
     git clone https://github.com/cillb/Phone-Number-Validator.git
-    cd Roman-Numeral-Converter
+    cd Phone-Number-Validator
 
 ### 2. Open in Browser
 
